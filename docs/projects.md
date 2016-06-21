@@ -107,6 +107,12 @@ Name of the AWS profile to use, this is the name used to locate AWS credentials 
 
 - type: `string`
 
+### handler
+
+Handler that `_apex_index.js` will use, the default is `index.handler` for Node.js files.
+
+- type: `string`
+
 ### defaultEnvironment
 
 Default infrastructure environment.
